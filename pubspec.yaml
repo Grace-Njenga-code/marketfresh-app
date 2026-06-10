@@ -1,0 +1,47 @@
+name: marketfresh
+description: A grocery delivery app for hotels and restaurants
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.2
+
+  # UI & fonts
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.8
+
+  # Images
+  cached_network_image: ^3.3.1
+
+  # Icons
+  flutter_svg: ^2.0.10+1
+
+  # Animations
+  lottie: ^3.1.2
+
+  # Utils
+  intl: ^0.19.0
+  shared_preferences: ^2.3.2
+
+  # Networking (M-Pesa API)
+  http: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
